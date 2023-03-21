@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+.top{
+    background-image: url('../Images/background/magicpattern-pattern-1678978047437.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 10px 70px;
+    
+}
+.banner{
+    background-image: url('../Images/background/bg.png');
+    background-repeat: no-repeat;
+    
+    background-position: right;
+   
+    
+    
+}
+.menubar{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.menubar .logo span{
+    color: white;
+    font-size: 3em;
+    margin-left: 16px;
+}
+
+.menu ul{
+    display: flex;
+    
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 2em;
+    
+}
+.menu ul li a{
+   text-decoration: none;
+   font-size: 1.5em;
+   color: white;
+}
+.content h1{
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+
+
+color: #FFFFFF;
+
+}
+.content h5{
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Light Grey */
+
+color: #F1F1F1;
+    
+    }
+
+.header-body{
+    margin-top:64px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .button-1{
+    background: #65E4A3;
+    border: 2px solid #69E6A6;
+    border-radius: 56px;
+    padding: 16px 56px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.content .button-2{
+    border: 2px solid #FFFFFF;
+    border-radius: 56px;
+    padding: 16px 56px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.img-2 .imag-s{
+    margin-left: 30px;
+}
+.brand-logo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.brand-logo img{
+    Width:20px;
+    Height:20px
+}
+.brand-logo span{
+    font-size: 30px;
+    
+    color: #FFFFFF;
+    margin-left: 30px;
+    
+}
+
+
+
+.brand-logo img{
+    transition: transform 0.3s ease-in-out;
+}
+.brand-logo img:hover{
+    transform: rotate(30deg) scale(1.5);
+    
+}
+.main-product{
+    margin-top: 200px;
+    text-align: center;
+}
+.main-product .service h6{
+    font-weight: 400;
+    font-size: 32px;
+    color: #777777;
+}
+.main-product .service p{
+    margin-left:30px ;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.service-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-card .imge iframe{
+    width: 600px;
+    height: 400px;
+    border: none;
+   
+}
+.service-card .card-body{
+    padding-left: 180px;
+}
+.service-card .card-body h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+.service-card .card-body h6{
+    font-weight: 400;
+    font-size: 20px;
+  
+    color: #777777;
+    
+}
+.service-card .card-body a{
+    text-decoration: none;
+    font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+/* identical to box height, or 180% */
+
+
+color: #0A2640;
+}
+.fa-solid{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.customer-1,.customer-2{
+    display: flex;
+    margin-top: 200px;
+}
+.child-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.child-1 img{
+    width: 100%;
+}
+.child-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    
+}
+.child-2 h3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    margin-left:30px;
+}
+.child-2 h4{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.child-2 h4 i{
+    font-size: 36px;
+    padding-right: 63px;
+}
+
+.child-2 a{
+    text-decoration: none;
+    padding: 16px 56px;
+
+    color: #FFFFFF;
+    
+    /* Dark Blue */
+
+    background: #0A2640;
+    /* Dark Blue */
+
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    margin-left: 30px;
+    line-height: 150px;
+    }
+    .blog{
+        margin-top: 200px;
+    }
+    .blog h6{
+        text-align: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        /* identical to box height, or 160% */
+
+
+        /* Gray */
+
+        color: #777777;
+    }
+    .blog h4{
+        font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+text-align: center;
+color: #000000;
+
+    }
+
+.blog-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.blog-container .blog-1,.blog-container .blog-2,.blog-container .blog-3{
+
+    width: 400px;
+    height: 550px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.blog-container .blog-1 img,.blog-container .blog-2 img,.blog-container .blog-3 img{
+    width: 100%;
+}
+.blog-content{
+    
+    margin-top: 24px;
+    margin-left: 10px;
+}
+.blog-content h3{
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Dark Blue */
+
+color: #0A2640;
+}
+.blog-content p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+.blog-content>.person{
+    display: flex;
+  
+    margin-top: 30px;
+    
+    
+}
+
+.blog-content>.person img{
+    width: 60px;
+}
+.blog-content>.person h5{
+    font-weight: 400;
+padding-left: 50px;
+padding-bottom: 50px;
+font-size: 16px;
+/* or 175% */
+
+
+color: #000000;
+}
+.blog-button{
+    margin-top: 84px;
+    text-align: center;
+}
+.blog-button button{
+    padding: 16px 56px;
+    gap: 8px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+
+
+color: #0A2640;
+
+/* Dark Blue */
+
+border: 2px solid #0A2640;
+border-radius: 56px;
+background-color: white;
+}
+footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .content div p{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+/* Gray */
+
+color: #777777;
+
+}
+footer .content div h5{
+    margin-top: 64px;
+    font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+display: flex;
+align-items: center;
+
+/* Gray */
+
+color: #777777;
+}
+
+footer table {
+    width: 642px;
+   
+    
+  }
+  footer table th,td{
+    margin: 0px 90px;
+    padding: 32px 64px;
+  }
+table th{
+    font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+  }
+table td{
+    text-align: center;
+    font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+/* Gray */
+
+color: #777777
+  }
+
+
+
+
+
